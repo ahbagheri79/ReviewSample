@@ -1,0 +1,21 @@
+.review_plugin .star-container {
+    padding: 6px;
+    display: inline-block;
+    position: relative;
+}
+
+.review_plugin .star-svg {
+    width: 24px;
+    height: 24px;
+    transition: opacity 0.3s ease;
+}
+
+.review_plugin .star-path {
+    stroke: #505050;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.review_plugin .star-svg.true path {
+    fill: #FFC542;
+}
